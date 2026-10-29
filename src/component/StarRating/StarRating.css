@@ -1,0 +1,18 @@
+.star-rating {
+  display: flex;
+  gap: 4px;
+}
+
+.star-rating .star {
+  background: none;
+  border: none;
+  font-size: 34px;
+  line-height: 1;
+  color: #cfcfcf;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.star-rating .star.on {
+  color: #f5b301;
+}
